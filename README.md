@@ -33,6 +33,6 @@ git clone https://github.com/joomla-projects/release-testing.git
 ```
 
 ## Under the hood
-It will set up the visa site and subsequently, it prompts you for your **username and password**. It may take some time to establish a database connection, so please be patient. The setup comprises a folder `web servers` and a `run.sh` script. The automation is done with Cypress and the script can be found in the `web-server/tests/System/integration` folder. \
+It will set up the visa site and subsequently, it prompts you for your **username and password**. The setup comprises a folder `web servers` and a `run.sh` script. The automation is done with Cypress and the script can be found in the `web-server/tests/System/integration` folder. \
 **Note:** The setup has been tested to ensure functionality and reliability but due to confidentiality reasons, credentials are not provided. Please ensure to provide your own credentials when setting up the project.
 
