@@ -17,7 +17,6 @@ services:
       ROOT: ${ROOT}
     volumes:
       - .:${ROOT}
-      - ~/.Xauthority:/root/.Xauthority:rw
       - /tmp/.X11-unix:/tmp/.X11-unix
     working_dir: /cypress-test/tests
 
